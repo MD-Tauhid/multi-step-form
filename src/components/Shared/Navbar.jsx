@@ -19,7 +19,7 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <Link className="flex items-center text-white hover:text-white hover:font-extrabold transition-colors">
+                <Link className="flex items-center text-gray-300 hover:text-white hover:font-bold transition-colors">
                     Pages
                 </Link>
             </Typography>
@@ -29,7 +29,7 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <Link className="flex items-center text-white hover:text-white hover:font-extrabold transition-colors">
+                <Link className="flex items-center text-gray-300 hover:text-white hover:font-bold transition-colors">
                     Account
                 </Link>
             </Typography>
@@ -39,7 +39,7 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <Link className="flex items-center text-white hover:text-white hover:font-extrabold transition-colors">
+                <Link className="flex items-center text-gray-300 hover:text-white hover:font-bold transition-colors">
                     Blocks
                 </Link>
             </Typography>
@@ -49,7 +49,7 @@ function NavList() {
                 color="blue-gray"
                 className="p-1 font-medium"
             >
-                <Link className="flex items-center text-white hover:text-white hover:font-extrabold">
+                <Link className="flex items-center text-gray-300 hover:text-white hover:font-bold">
                     Docs
                 </Link>
             </Typography>
@@ -71,8 +71,8 @@ const NavBar = () => {
     }, []);
 
     return (
-        <Navbar className="max-width px-6 py-3 rounded-none bg-teal-900 border-none shadow-md">
-            <div className="flex items-center justify-between text-white">
+        <Navbar className="w-full max-width px-6 py-3 rounded-none bg-teal-900 opacity-80 border-none shadow-md">
+            <div className="flex items-center justify-between text-gray-300">
                 <Typography
                     as="a"
                     href="#"

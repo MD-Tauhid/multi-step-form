@@ -4,7 +4,7 @@ import MsForm from '../Form/MsForm';
 
 const Home = () => {
     return (
-        <div w-full>
+        <div className='w-full mx-auto'>
             <MsForm></MsForm>
         </div>
     );

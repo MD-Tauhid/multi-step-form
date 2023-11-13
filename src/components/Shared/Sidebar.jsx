@@ -24,7 +24,7 @@ const Sidebar = () => {
     // const rotate = rotateMenu ? "rotate(180deg)" : "rotate(0)";
 
     return (
-        <Card className="h-[calc(100vh-2rem)] w-full max-w-[20rem] hidden md:block rounded-none bg-teal-900 opacity-70 p-4 shadow-xl">
+        <Card className="h-[calc(100vh-2rem)] w-full max-w-[20rem] hidden md:block rounded-none bg-teal-900 opacity-70 p-4 shadow-xl overflow-hidden">
             <div className="mb-2 p-4">
                 <Typography variant="h5" color="white">
                     Sidebar

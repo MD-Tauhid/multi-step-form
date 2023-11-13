@@ -9,11 +9,11 @@ const Main = () => {
     return (
         <div className='w-full'>
             <NavBar></NavBar>
-            <div className='grid grid-cols-3 h-[calc(100vh-2rem)]'>
+            <div className='grid grid-cols-4 h-[calc(100vh-2rem)]'>
                 <div>
                     <Sidebar></Sidebar>
                 </div>
-                <div className='w-full col-span-3 md:col-span-2'>
+                <div className='w-full col-span-4 md:col-span-3'>
                     <Outlet></Outlet>
                 </div>
             </div>
