@@ -2,13 +2,20 @@ import React from 'react';
 import Footer from '../Shared/Footer';
 import Header from '../Header/Header';
 import { Outlet } from 'react-router-dom';
+import Sidebar from '../Shared/Sidebar';
+import NavBar from '../Shared/NavBar';
 
 const Main = () => {
     return (
-        <div>
-            <Header></Header>
-            <div>
-                <Outlet></Outlet>
+        <div className='w-full'>
+            <NavBar></NavBar>
+            <div className='grid grid-cols-3 h-[calc(100vh-2rem)]'>
+                <div>
+                    <Sidebar></Sidebar>
+                </div>
+                <div className='w-full col-span-3 md:col-span-2'>
+                    <Outlet></Outlet>
+                </div>
             </div>
             <Footer></Footer>
         </div>

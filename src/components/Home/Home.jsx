@@ -1,9 +1,11 @@
+import { Button } from '@material-tailwind/react';
 import React from 'react';
+import MsForm from '../Form/MsForm';
 
 const Home = () => {
     return (
-        <div>
-            <h3>hello from home</h3>
+        <div w-full>
+            <MsForm></MsForm>
         </div>
     );
 };
